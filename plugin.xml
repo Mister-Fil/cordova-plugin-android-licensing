@@ -23,7 +23,7 @@
     
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="CordovaAndroidLicensing">
-                <param name="android-package" value="nonostante.games.cordova.CordovaAndroidLicensing"/>
+                <param name="android-package" value="io.nonostante.games.cordova.CordovaAndroidLicensing"/>
             </feature>
         </config-file>
         
