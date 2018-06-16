@@ -12,7 +12,7 @@ cordova plugin add https://github.com/Mister-Fil/cordova-plugin-android-licensin
 ```
 
 # Usage
-The plugin is available on the `window.plugins.licensing` object.
+The plugin is available on the `window['plugins'].licensing` object.
 
 ## Check
 Allow to check asynchronically the licensing via the google play servers.
@@ -22,7 +22,7 @@ check(success: Function, fail: Function): void
 
 ### Example
 ```js
-window.plugins.licensing.check(
+window['plugins'].licensing.check(
     function () { // success callback
 
     },
