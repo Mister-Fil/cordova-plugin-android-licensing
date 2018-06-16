@@ -8,7 +8,7 @@ Android only
 # Installation
 You need your app public key to install the plugin:
 ```
-cordova plugin add https://github.com/nonostante/cordova-plugin-android-licensing.git --variable PUBLIC_KEY=$app_public_key$
+cordova plugin add https://github.com/Mister-Fil/cordova-plugin-android-licensing.git --variable PUBLIC_KEY=$app_public_key$
 ```
 
 # Usage
